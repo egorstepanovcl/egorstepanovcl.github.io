@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Егор Степанов</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .content {
+            text-align: center;
+        }
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #007bff;
+            animation: pulse 1.5s infinite;
+            margin: 0 auto 1rem auto;
+        }
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="circle"></div>
+        <h1>Сайт в разработке</h1>
+    </div>
+</body>
+</html>
